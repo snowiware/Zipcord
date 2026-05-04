@@ -191,7 +191,7 @@ public final class Zipcord extends JavaPlugin {
                                                         time = timeElement.getAsLong();
                                                     }
                                                     boolean selfDestruct = true;
-                                                    JsonElement selfDestructElement = json.get("time");
+                                                    JsonElement selfDestructElement = json.get("self-destruct");
                                                     if (selfDestructElement != null) {
                                                         selfDestruct = selfDestructElement.getAsBoolean();
                                                     }
