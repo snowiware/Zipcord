@@ -1,0 +1,11 @@
+name: Zipcord
+version: '1.0'
+
+main: snowy2go.zipcord.Zipcord
+api-version: '1.21'
+
+commands:
+  link:
+    description: Input a code to link Minecraft to an external source.
+    usage: /<command> [code]
+    permission: zipcord.link
